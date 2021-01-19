@@ -98,9 +98,7 @@ function mostrarAutos(autos) {
 }
 
 function limpiarHTML() {
-    while(resultado.firstChild) {
-        resultado.removeChild(resultado.firstChild);
-    }
+    resultado.textContent = "";
 }
 
 // Genera los años del select
